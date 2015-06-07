@@ -1,4 +1,4 @@
 bitly:
-    login: Your Login
-    api_key: Your API Key
-    url: "Your URL to shorten"
+    login: premiercompanions
+    api_key: R_41026cfd601b4a8ab8802670ee03f347
+    url: "http://www.premiercompanions.com"
