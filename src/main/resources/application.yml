@@ -1,0 +1,4 @@
+bitly:
+    login: Your Login
+    api_key: Your API Key
+    url: "Your URL to shorten"

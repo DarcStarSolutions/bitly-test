@@ -18,26 +18,22 @@ apply plugin: 'spring-boot'
 apply plugin: 'io.spring.dependency-management'
 
 jar {
-    baseName = 'sendgrid-test'
+    baseName = 'bity-test'
     version = '0.1'
-    manifest {
-        attributes(
-                "Main-Class": "org.darcstarsolutions.ironworker.test.Application",
 
-        )
-    }
 }
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
+
 }
 
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter")
-    compile 'com.sendgrid:sendgrid-java:2.2.1'
+    compile("com.rosaloves:bitlyj:2.0.0")
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
